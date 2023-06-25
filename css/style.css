@@ -74,7 +74,7 @@ li a:hover:not(.active) {
 }
 .hello{
   font-size: 22px;
-  padding: 100px 0px 10px 0px;
+  padding: 50px 0px 10px 0px;
   font-weight: bold;
 }
 .name_{
@@ -183,37 +183,85 @@ li a:hover:not(.active) {
   flex-direction: column;
   width: 100%;
 }
+.text{
+  display: flex;
+  flex-direction: column;
+}
 h2{
-  font-size: 32px;
-  margin-top: 50px;
+  font-size: 40px;
+  color: #1a1a29;
+  font-weight: bold;
 }
 h4{
   font-size: 20px;
-  margin-top: 30px;
+  color: #1a1a29;
+  font-weight: bold;
 }
 .projects{
   display: flex;
-  margin-top: 50px;
-  background-color: #9e9e9e ;
+  flex-wrap: wrap;
+  padding: 50px 20px 10px 20px;
   width: 100%;
-  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.644);
 }
 .oaktree{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 0px 20px 20px 0px;
-}
-.subtext{
-  margin-top: 5px;
-  font-size: 18px;
-  font-weight: bold;
+  padding: 10px;
 }
 .saas{
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 400px;
-  padding: 0px 0px 20px 20px;
+  padding: 10px;
 }
-
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+}
+.tourguide{
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  padding: 10px 10px 10px 10px;
+}
+.debenedict{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+}
+.foodlounge{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+}
+.link{
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
+}
+.link1 a{
+  padding: 10px 20px 10px 20px;
+  background-color: #1a1a29;
+  color: #ffffff;
+  margin: 20px 0px 0px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.link1 a:hover:not(.active) {
+  text-decoration: underline;
+  color: rgb(253, 69, 170);
+}
+.subtext{
+  color: #1a1a29;
+  font-size: 20px;
+  margin: 0px 0px 0px 20px;
+  font-weight: bold;
+}
