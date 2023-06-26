@@ -20,7 +20,10 @@ body {
   font-size: 32px;
   width: 20%;
 }
-.social, .twitter, .linkedin, .instagram {
+.social,
+.twitter,
+.linkedin,
+.instagram {
   padding: 5px 10px 5px 0px;
 }
 .social {
@@ -56,12 +59,12 @@ li a:hover:not(.active) {
   text-decoration: underline;
   color: #ffffff;
 }
-#about{
+#about {
   display: flex;
   flex-direction: column;
   margin: 100px 0px 20px 0px;
 }
-.intro{
+.intro {
   display: flex;
   width: 100%;
   height: 500px;
@@ -69,43 +72,43 @@ li a:hover:not(.active) {
   background-repeat: no-repeat;
   background-image: url(/css/image/design.svg);
 }
-.intro_{
+.intro_ {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-.hello{
+.hello {
   font-size: 22px;
   padding: 50px 0px 10px 0px;
   font-weight: bold;
 }
-.name_{
+.name_ {
   padding: 0px 0px 20px 0px;
   font-size: 48px;
 }
-.skill{
+.skill {
   text-align: justify;
   padding: 0px 0px 20px 0px;
   font-size: 18px;
   width: 100%;
   line-height: 30px;
 }
-.image{
+.image {
   display: flex;
   width: 50%;
   justify-content: end;
 }
-.profilepicture{
+.profilepicture {
   display: flex;
   border-radius: 10px;
 }
-.skill_{
+.skill_ {
   display: flex;
   width: 100%;
   margin: 150px 20px 20px 20px;
   justify-content: center;
 }
-.behance{
+.behance {
   padding: 10px 20px 10px 20px;
   font-size: 18px;
   color: #151515;
@@ -117,7 +120,7 @@ li a:hover:not(.active) {
 .behance a:hover:not(.active) {
   text-decoration: none;
 }
-.github{
+.github {
   padding: 10px 23px 10px 23px;
   font-size: 18px;
   background-color: #ffffff;
@@ -131,35 +134,36 @@ li a:hover:not(.active) {
   text-decoration: underline;
 }
 
-.frontend{
+.frontend {
   padding: 10px;
   background-color: #979797;
   margin: 0px 40px 0px 0px;
-  color: #ffffff;;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   width: 400px;
   height: 300px;
 }
-.frontenddev{
+.frontenddev {
   display: flex;
   font-size: 26px;
   color: #ffffff;
   font-weight: bold;
   justify-content: center;
-  padding:80px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 .frontend a:hover:not(.active) {
   text-decoration: underline;
   color: #151515;
 }
-.tool{
+.tool {
   display: flex;
   text-align: center;
   color: #ffffff;
-  padding:20px 20px 30px 20px;
+  padding: 20px 20px 30px 20px;
   font-size: 20px;
-}.ui_ux{
+}
+.ui_ux {
   padding: 10px 10px 10px 10px;
   margin: 0px 0px 0px 40px;
   background-color: #979797;
@@ -168,19 +172,19 @@ li a:hover:not(.active) {
   width: 400px;
   height: 300px;
 }
-.ui_ux_{
+.ui_ux_ {
   display: flex;
   color: #ffffff;
   font-size: 26px;
   font-weight: bold;
   justify-content: center;
-  padding:80px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 .ui_ux a:hover:not(.active) {
   text-decoration: underline;
   color: #151515;
 }
-#project{
+#project {
   margin-top: 100px;
   padding-top: 50px;
   display: flex;
@@ -189,22 +193,22 @@ li a:hover:not(.active) {
   border-top: 1px solid #979797;
   background-image: url(/css/image/design.svg);
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
 }
-h2{
+h2 {
   font-size: 40px;
   color: #ffffff;
   font-weight: bold;
 }
-h4{
+h4 {
   font-size: 20px;
   margin-top: 20px;
   color: #ffffff;
   font-weight: bold;
 }
-.projects{
+.projects {
   display: flex;
   flex-wrap: wrap;
   padding: 50px 20px 10px 20px;
@@ -212,48 +216,48 @@ h4{
   margin-top: 30px;
   border-radius: 10px;
 }
-.oaktree{
+.oaktree {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 30px 10px;
 }
-.saas{
+.saas {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 30px 10px;
 }
-.dashboard{
+.dashboard {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 30px 10px;
 }
-.tourguide{
+.tourguide {
   display: flex;
   flex-direction: column;
   width: 49%;
   padding: 10px 10px 30px 10px;
 }
-.debenedict{
+.debenedict {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 30px 10px;
 }
-.foodlounge{
+.foodlounge {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 30px 10px;
 }
-.link{
+.link {
   display: flex;
   padding: 10px 0px 20px 0px;
   margin: 10px 0px 0px 0px;
 }
-.link1 a{
+.link1 a {
   padding: 10px 20px 10px 20px;
   background-color: #ffffff;
   color: #151515;
@@ -267,7 +271,7 @@ h4{
   text-decoration: underline;
   color: #151515;
 }
-.subtext{
+.subtext {
   color: #ffffff;
   font-size: 18px;
   margin: 0px 0px 0px 0px;
@@ -282,7 +286,7 @@ h4{
   background-repeat: no-repeat;
   background-position: right;
 }
-.contact_{
+.contact_ {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -295,58 +299,60 @@ h4{
   margin-top: 30px;
   width: 100%;
 }
-.social2{
+.social2 {
   display: flex;
   width: 100%;
   padding: 5px 10px 5px 0px;
 }
-.twitter2, .linkedin2, .instagram2 {
+.twitter2,
+.linkedin2,
+.instagram2 {
   padding: 10px 80px 10px 0px;
 }
-.form{
+.form {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 10px 10px 10px 10px;
 }
-.maintext{
+.maintext {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 10px;
 }
-.textbox{
+.textbox {
   display: flex;
   padding: 10px;
   margin: 10px 10px 10px 0px;
   width: 50%;
-  background-color:#ffffff;
+  background-color: #ffffff;
   border: 0px;
   border-radius: 5px;
 }
-.textarea{
+.textarea {
   display: flex;
   padding: 10px;
   margin: 10px 10px 10px 0px;
   width: 50%;
-  background-color:#ffffff;
+  background-color: #ffffff;
   border: 0px;
   border-radius: 5px;
 }
-.submit{
+.submit {
   display: flex;
   padding: 10px;
   margin: 10px 10px 10px 0px;
   width: 25%;
   justify-content: center;
   font-weight: bold;
-  background-color:#979797;
+  background-color: #979797;
   border: 0px;
   font-size: 18px;
   font-family: calibri;
   color: #151515;
   border-radius: 5px;
 }
-.footer{
+.footer {
   display: flex;
   margin: 80px 0px 10px 0px;
   padding: 30px 0px 10px 0px;
@@ -355,43 +361,34 @@ h4{
   justify-content: start;
   align-items: center;
 }
-.footer1{
+.footer1 {
   font-size: 14px;
   font-weight: normal;
   margin: 0px 50px 0px 50px;
   width: 25%;
-  
 }
-.twitter3, .instagram3, .linkedin3{
+.twitter3,
+.instagram3,
+.linkedin3 {
   display: flex;
   padding: 0px 30px 0px 25px;
- 
 }
-.social3{
+.social3 {
   display: flex;
   width: 30%;
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 1311px) {
   body {
     width: 100%;
     padding: 20px 70px 20px 70px;
   }
-
 }
 @media only screen and (max-width: 1251px) {
   body {
     width: 100%;
     padding: 20px 40px 20px 40px;
   }
-
 }
 @media only screen and (max-width: 1191px) {
   body {
@@ -402,7 +399,10 @@ h4{
     font-size: 30px;
     width: 20%;
   }
-  .social, .twitter, .linkedin, .instagram {
+  .social,
+  .twitter,
+  .linkedin,
+  .instagram {
     padding: 5px 10px 5px 0px;
   }
   .social {
@@ -426,7 +426,9 @@ h4{
     font-size: 30px;
     width: 25%;
   }
-  .twitter, .linkedin, .instagram {
+  .twitter,
+  .linkedin,
+  .instagram {
     padding: 5px 10px 5px 20px;
     width: 50px;
   }
@@ -444,97 +446,102 @@ h4{
     font-size: 15px;
     font-weight: bold;
   }
-  .intro_{
+  .intro_ {
     display: flex;
     flex-direction: column;
     width: 50%;
   }
-  .hello{
+  .hello {
     font-size: 20px;
     padding: 20px 0px 10px 0px;
   }
-  .name_{
+  .name_ {
     padding: 0px 0px 20px 0px;
     font-size: 40px;
   }
-  .skill{
+  .skill {
     font-size: 16px;
     line-height: 25px;
   }
-  .profilepicture{
+  .profilepicture {
     width: 350px;
     height: 350px;
   }
-  .skill_{
+  .skill_ {
     margin: 100px 20px 20px 20px;
     justify-content: center;
   }
-  .github{
+  .github {
     margin: 0px 0px 0px 30px;
   }
 
-  .frontend{
+  .frontend {
     width: 300px;
     height: 250px;
   }
-  .frontenddev{
+  .frontenddev {
     font-size: 24px;
     justify-content: center;
-    padding:60px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
   }
-  .tool{
+  .tool {
     display: flex;
     text-align: center;
     color: #ffffff;
-    padding:20px 20px 30px 20px;
+    padding: 20px 20px 30px 20px;
     font-size: 18px;
-  }.ui_ux{
+  }
+  .ui_ux {
     width: 300px;
     height: 250px;
   }
-  .ui_ux_{
+  .ui_ux_ {
     font-size: 24px;
     justify-content: center;
-    padding:60px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
   }
-  h2{
+  h2 {
     font-size: 36px;
   }
-  h4{
+  h4 {
     font-size: 16px;
   }
-  .link1 a{
+  .link1 a {
     padding: 10px 18px 10px 18px;
     margin: 20px 20px 0px 0px;
     font-size: 14px;
   }
-  .subtext{
+  .subtext {
     font-size: 15px;
   }
-  .contact_{
+  .contact_ {
     font-size: 36px;
   }
   .connect {
     font-size: 16px;
   }
-  .twitter2, .linkedin2, .instagram2 {
+  .twitter2,
+  .linkedin2,
+  .instagram2 {
     padding: 10px 60px 10px 0px;
   }
-  .maintext{
+  .maintext {
     font-size: 15px;
   }
-  .submit{
+  .submit {
     font-size: 15px;
   }
-  .footer1{
+  .footer1 {
     font-size: 13px;
     margin: 0px 50px 0px 0px;
     width: 30%;
   }
-  .twitter3, .instagram3, .linkedin3{
+  .twitter3,
+  .instagram3,
+  .linkedin3 {
     width: 70px;
   }
-  .social3{
+  .social3 {
     width: 20%;
     margin-right: 20px;
   }
@@ -551,53 +558,55 @@ h4{
     font-size: 24px;
     width: 50%;
   }
- .twitter, .linkedin, .instagram {
+  .twitter,
+  .linkedin,
+  .instagram {
     width: 50px;
   }
   .social {
     width: 50%;
   }
   .navbar {
-    display: none;  
+    display: none;
   }
-  #about{
+  #about {
     display: flex;
     flex-direction: column;
     margin: 10px 0px 20px 0px;
   }
-  .intro{
+  .intro {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     padding: 10px;
   }
-  .intro_{
+  .intro_ {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .hello{
+  .hello {
     font-size: 16px;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
   }
-  .name_{
+  .name_ {
     padding: 0px 0px 10px 0px;
     font-size: 24px;
   }
-  .skill{
+  .skill {
     font-size: 16px;
     width: 100%;
     line-height: 24px;
   }
-  .behance{
+  .behance {
     font-size: 14px;
   }
-  .github{
+  .github {
     font-size: 14px;
   }
-  .image{
+  .image {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -605,12 +614,12 @@ h4{
     justify-content: center;
     align-items: center;
   }
-  .profilepicture{
+  .profilepicture {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
-  .skill_{
+  .skill_ {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -618,7 +627,7 @@ h4{
     justify-content: center;
     align-items: center;
   }
-  .frontend{
+  .frontend {
     padding: 10px 10px 10px 10px;
     margin: 20px 0px 0px 0px;
     display: flex;
@@ -629,17 +638,17 @@ h4{
     height: 250px;
     border-radius: 10px;
   }
-  .frontenddev{
+  .frontenddev {
     display: flex;
     font-size: 24px;
     justify-content: center;
     text-align: justify;
-    padding:60px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
   }
-  .tool{
+  .tool {
     font-size: 16px;
   }
-  .ui_ux{
+  .ui_ux {
     margin: 40px 20px 0px 0px;
     display: flex;
     justify-content: center;
@@ -649,78 +658,78 @@ h4{
     height: 250px;
     border-radius: 10px;
   }
-  .ui_ux_{
+  .ui_ux_ {
     display: flex;
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
     text-align: justify;
-    padding:60px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
   }
 
-  #project{
+  #project {
     margin-top: 50px;
   }
-  h2{
+  h2 {
     font-size: 24px;
   }
-  h4{
+  h4 {
     font-size: 15px;
     text-align: justify;
   }
-  .projects{
+  .projects {
     display: flex;
     flex-direction: column;
     padding: 20px 20px 10px 20px;
     width: 100%;
     margin-top: 10px;
   }
-  .oaktree{
+  .oaktree {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .saas{
+  .saas {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .dashboard{
+  .dashboard {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .tourguide{
+  .tourguide {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .debenedict{
+  .debenedict {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .foodlounge{
+  .foodlounge {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .link{
+  .link {
     display: flex;
     padding: 10px 0px 20px 0px;
     margin: 10px 0px 0px 0px;
   }
-  .link1 a{
+  .link1 a {
     padding: 10px 15px 10px 15px;
     font-size: 14px;
   }
-  .subtext{
+  .subtext {
     font-size: 15px;
   }
   #contact {
@@ -731,7 +740,7 @@ h4{
     margin-top: 10px;
     background-position: center;
   }
-  .contact_{
+  .contact_ {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -741,30 +750,32 @@ h4{
     font-size: 16px;
     margin-top: 10px;
   }
-  .twitter2, .linkedin2, .instagram2 {
+  .twitter2,
+  .linkedin2,
+  .instagram2 {
     padding: 10px 30px 10px 0px;
   }
-  .form{
+  .form {
     width: 100%;
   }
-  .maintext{
+  .maintext {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 10px;
   }
-  .textbox{
+  .textbox {
     width: 80%;
   }
-  .textarea{
+  .textarea {
     width: 80%;
   }
-  .submit{
+  .submit {
     width: 50%;
     justify-content: center;
     align-self: center;
     font-size: 15px;
   }
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
     margin: 80px 0px 10px 0px;
@@ -774,27 +785,25 @@ h4{
     justify-content: start;
     align-items: center;
   }
-  .footer1{
+  .footer1 {
     font-size: 14px;
     font-weight: normal;
     margin: 10px 0px 10px 0px;
     width: 100%;
     text-align: center;
-    
   }
-  .twitter3, .instagram3, .linkedin3{
+  .twitter3,
+  .instagram3,
+  .linkedin3 {
     display: flex;
     width: 80px;
     padding: 10px 30px 10px 25px;
-   
   }
-  .social3{
+  .social3 {
     justify-content: center;
     width: 100%;
   }
-  
 }
-
 
 @media only screen and (max-width: 430px) {
   body {
@@ -807,53 +816,55 @@ h4{
     font-size: 24px;
     width: 50%;
   }
- .twitter, .linkedin, .instagram {
+  .twitter,
+  .linkedin,
+  .instagram {
     width: 50px;
   }
   .social {
     width: 50%;
   }
   .navbar {
-    display: none;  
+    display: none;
   }
-  #about{
+  #about {
     display: flex;
     flex-direction: column;
     margin: 10px 0px 20px 0px;
   }
-  .intro{
+  .intro {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     padding: 10px;
   }
-  .intro_{
+  .intro_ {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .hello{
+  .hello {
     font-size: 16px;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
   }
-  .name_{
+  .name_ {
     padding: 0px 0px 10px 0px;
     font-size: 24px;
   }
-  .skill{
+  .skill {
     font-size: 16px;
     width: 100%;
     line-height: 24px;
   }
-  .behance{
+  .behance {
     font-size: 14px;
   }
-  .github{
+  .github {
     font-size: 14px;
   }
-  .image{
+  .image {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -861,12 +872,12 @@ h4{
     justify-content: center;
     align-items: center;
   }
-  .profilepicture{
+  .profilepicture {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
-  .skill_{
+  .skill_ {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -875,7 +886,7 @@ h4{
     align-items: center;
     align-self: center;
   }
-  .frontend{
+  .frontend {
     padding: 10px 10px 10px 10px;
     margin: 20px 0px 0px 0px;
     display: flex;
@@ -886,17 +897,17 @@ h4{
     height: 250px;
     border-radius: 10px;
   }
-  .frontenddev{
+  .frontenddev {
     display: flex;
     font-size: 24px;
     justify-content: center;
     text-align: justify;
-    padding:50px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
   }
-  .tool{
+  .tool {
     font-size: 16px;
   }
-  .ui_ux{
+  .ui_ux {
     margin: 40px 20px 0px 20px;
     display: flex;
     justify-content: center;
@@ -907,78 +918,78 @@ h4{
     height: 250px;
     border-radius: 10px;
   }
-  .ui_ux_{
+  .ui_ux_ {
     display: flex;
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
     text-align: justify;
-    padding:50px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
   }
 
-  #project{
+  #project {
     margin-top: 50px;
   }
-  h2{
+  h2 {
     font-size: 24px;
   }
-  h4{
+  h4 {
     font-size: 15px;
     text-align: justify;
   }
-  .projects{
+  .projects {
     display: flex;
     flex-direction: column;
     padding: 20px 20px 10px 20px;
     width: 100%;
     margin-top: 10px;
   }
-  .oaktree{
+  .oaktree {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .saas{
+  .saas {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .dashboard{
+  .dashboard {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .tourguide{
+  .tourguide {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .debenedict{
+  .debenedict {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .foodlounge{
+  .foodlounge {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px 0px 30px 0px;
   }
-  .link{
+  .link {
     display: flex;
     padding: 10px 0px 20px 0px;
     margin: 10px 0px 0px 0px;
   }
-  .link1 a{
+  .link1 a {
     padding: 10px 15px 10px 15px;
     font-size: 14px;
   }
-  .subtext{
+  .subtext {
     font-size: 15px;
   }
   #contact {
@@ -989,7 +1000,7 @@ h4{
     margin-top: 10px;
     background-position: center;
   }
-  .contact_{
+  .contact_ {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -999,30 +1010,32 @@ h4{
     font-size: 16px;
     margin-top: 10px;
   }
-  .twitter2, .linkedin2, .instagram2 {
+  .twitter2,
+  .linkedin2,
+  .instagram2 {
     padding: 10px 30px 10px 0px;
   }
-  .form{
+  .form {
     width: 100%;
   }
-  .maintext{
+  .maintext {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 10px;
   }
-  .textbox{
+  .textbox {
     width: 80%;
   }
-  .textarea{
+  .textarea {
     width: 80%;
   }
-  .submit{
+  .submit {
     width: 50%;
     justify-content: center;
     align-self: start;
     font-size: 15px;
   }
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
     margin: 80px 0px 10px 0px;
@@ -1032,23 +1045,22 @@ h4{
     justify-content: start;
     align-items: center;
   }
-  .footer1{
+  .footer1 {
     font-size: 14px;
     font-weight: normal;
     margin: 10px 0px 10px 0px;
     width: 100%;
     text-align: center;
-    
   }
-  .twitter3, .instagram3, .linkedin3{
+  .twitter3,
+  .instagram3,
+  .linkedin3 {
     display: flex;
     width: 80px;
     padding: 10px 30px 10px 25px;
-   
   }
-  .social3{
+  .social3 {
     justify-content: center;
     width: 100%;
   }
-  
 }
