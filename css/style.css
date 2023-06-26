@@ -5,15 +5,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ffffff;
+  background-color: #151515;
   width: 100%;
   padding: 20px 100px 20px 100px;
-  color: #1a1a29;
+  color: #ffffff;
 }
 .header {
   display: flex;
   align-items: center;
   align-content: left;
+  border-bottom: 1px solid #979797;
 }
 .name {
   font-size: 32px;
@@ -42,7 +43,7 @@ li {
 }
 li a {
   display: block;
-  color: #1a1a29;
+  color: #ffffff;
   text-align: center;
   padding: 10px 20px;
   text-underline-position: below;
@@ -53,7 +54,7 @@ li a {
 }
 li a:hover:not(.active) {
   text-decoration: underline;
-  color: #1a1a29;
+  color: #ffffff;
 }
 #about{
   display: flex;
@@ -65,7 +66,8 @@ li a:hover:not(.active) {
   width: 100%;
   height: 500px;
   padding: 30px;
-  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-image: url(/css/image/design.svg);
 }
 .intro_{
   display: flex;
@@ -106,7 +108,8 @@ li a:hover:not(.active) {
 .behance{
   padding: 10px 20px 10px 20px;
   font-size: 18px;
-  background-color: #16327e;
+  color: #151515;
+  background-color: #ffffff;
   border-radius: 5px;
   border: 0px solid;
   font-weight: bold;
@@ -117,8 +120,8 @@ li a:hover:not(.active) {
 .github{
   padding: 10px 23px 10px 23px;
   font-size: 18px;
-  background-color: #16327e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #151515;
   border-radius: 5px;
   border: 0px solid;
   margin: 0px 0px 0px 50px;
@@ -126,11 +129,11 @@ li a:hover:not(.active) {
 }
 .github a:hover:not(.active) {
   text-decoration: underline;
-  color: cyan;
 }
+
 .frontend{
   padding: 10px;
-  background-color: #1a1a29;
+  background-color: #979797;
   margin: 0px 40px 0px 0px;
   color: #ffffff;;
   display: flex;
@@ -148,7 +151,7 @@ li a:hover:not(.active) {
 }
 .frontend a:hover:not(.active) {
   text-decoration: underline;
-  color: cyan;
+  color: #151515;
 }
 .tool{
   display: flex;
@@ -159,7 +162,7 @@ li a:hover:not(.active) {
 }.ui_ux{
   padding: 10px 10px 10px 10px;
   margin: 0px 0px 0px 40px;
-  background-color: #1a1a29;
+  background-color: #979797;
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -175,13 +178,16 @@ li a:hover:not(.active) {
 }
 .ui_ux a:hover:not(.active) {
   text-decoration: underline;
-  color: cyan;
+  color: #151515;
 }
 #project{
-  margin-top: 50px;
+  margin-top: 100px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   width: 100%;
+  border-top: 1px solid #979797;
+  background-image: url(/css/image/design.svg);
 }
 .text{
   display: flex;
@@ -189,12 +195,13 @@ li a:hover:not(.active) {
 }
 h2{
   font-size: 40px;
-  color: #1a1a29;
+  color: #ffffff;
   font-weight: bold;
 }
 h4{
   font-size: 20px;
-  color: #1a1a29;
+  margin-top: 20px;
+  color: #ffffff;
   font-weight: bold;
 }
 .projects{
@@ -204,64 +211,844 @@ h4{
   width: 100%;
   margin-top: 30px;
   border-radius: 10px;
-  background-color: rgba(128, 128, 128, 0.644);
 }
 .oaktree{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
 }
 .saas{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
 }
 .dashboard{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
 }
 .tourguide{
   display: flex;
   flex-direction: column;
   width: 49%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 30px 10px;
 }
 .debenedict{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 30px 10px;
 }
 .foodlounge{
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 30px 10px;
 }
 .link{
   display: flex;
-  padding: 20px 0px 20px 0px;
-  margin: 20px 0px 0px 0px;
+  padding: 10px 0px 20px 0px;
+  margin: 10px 0px 0px 0px;
 }
 .link1 a{
   padding: 10px 20px 10px 20px;
-  background-color: #1a1a29;
-  color: #ffffff;
-  margin: 20px 0px 0px 20px;
+  background-color: #ffffff;
+  color: #151515;
+  margin: 20px 20px 0px 0px;
+  font-weight: bold;
   border-radius: 8px;
+  font-size: 16px;
   text-decoration: none;
 }
 .link1 a:hover:not(.active) {
   text-decoration: underline;
-  color: rgb(253, 69, 170);
+  color: #151515;
 }
 .subtext{
-  color: #1a1a29;
-  font-size: 20px;
-  margin: 0px 0px 0px 20px;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px 0px 0px 0px;
   font-weight: bold;
+}
+#contact {
+  display: flex;
+  border-top: 1px solid #979797;
+  padding-top: 50px;
+  margin-top: 50px;
+  background-image: url(/css/image/Ellipse2.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.contact_{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.connect {
+  display: flex;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+.social2{
+  display: flex;
+  width: 100%;
+  padding: 5px 10px 5px 0px;
+}
+.twitter2, .linkedin2, .instagram2 {
+  padding: 10px 80px 10px 0px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+}
+.maintext{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.textbox{
+  display: flex;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  width: 50%;
+  background-color:#ffffff;
+  border: 0px;
+  border-radius: 5px;
+}
+.textarea{
+  display: flex;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  width: 50%;
+  background-color:#ffffff;
+  border: 0px;
+  border-radius: 5px;
+}
+.submit{
+  display: flex;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  width: 25%;
+  justify-content: center;
+  font-weight: bold;
+  background-color:#979797;
+  border: 0px;
+  font-size: 18px;
+  font-family: calibri;
+  color: #151515;
+  border-radius: 5px;
+}
+.footer{
+  display: flex;
+  margin: 80px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
+  border-top: 1px solid #dfdddd;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+}
+.footer1{
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0px 50px 0px 50px;
+  width: 25%;
+  
+}
+.twitter3, .instagram3, .linkedin3{
+  display: flex;
+  padding: 0px 30px 0px 25px;
+ 
+}
+.social3{
+  display: flex;
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1311px) {
+  body {
+    width: 100%;
+    padding: 20px 70px 20px 70px;
+  }
+
+}
+@media only screen and (max-width: 1251px) {
+  body {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+  }
+
+}
+@media only screen and (max-width: 1191px) {
+  body {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+  }
+  .name {
+    font-size: 30px;
+    width: 20%;
+  }
+  .social, .twitter, .linkedin, .instagram {
+    padding: 5px 10px 5px 0px;
+  }
+  .social {
+    width: 30%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  ul {
+    list-style-type: none;
+    margin-left: 8em;
+  }
+}
+
+@media only screen and (max-width: 1053px) {
+  .name {
+    font-size: 30px;
+    width: 25%;
+  }
+  .twitter, .linkedin, .instagram {
+    padding: 5px 10px 5px 20px;
+    width: 50px;
+  }
+  .social {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    margin-left: 6em;
+  }
+  li a {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .intro_{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .hello{
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+  }
+  .name_{
+    padding: 0px 0px 20px 0px;
+    font-size: 40px;
+  }
+  .skill{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .profilepicture{
+    width: 350px;
+    height: 350px;
+  }
+  .skill_{
+    margin: 100px 20px 20px 20px;
+    justify-content: center;
+  }
+  .github{
+    margin: 0px 0px 0px 30px;
+  }
+
+  .frontend{
+    width: 300px;
+    height: 250px;
+  }
+  .frontenddev{
+    font-size: 24px;
+    justify-content: center;
+    padding:60px 0px 0px 0px;
+  }
+  .tool{
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    padding:20px 20px 30px 20px;
+    font-size: 18px;
+  }.ui_ux{
+    width: 300px;
+    height: 250px;
+  }
+  .ui_ux_{
+    font-size: 24px;
+    justify-content: center;
+    padding:60px 0px 0px 0px;
+  }
+  h2{
+    font-size: 36px;
+  }
+  h4{
+    font-size: 16px;
+  }
+  .link1 a{
+    padding: 10px 18px 10px 18px;
+    margin: 20px 20px 0px 0px;
+    font-size: 14px;
+  }
+  .subtext{
+    font-size: 15px;
+  }
+  .contact_{
+    font-size: 36px;
+  }
+  .connect {
+    font-size: 16px;
+  }
+  .twitter2, .linkedin2, .instagram2 {
+    padding: 10px 60px 10px 0px;
+  }
+  .maintext{
+    font-size: 15px;
+  }
+  .submit{
+    font-size: 15px;
+  }
+  .footer1{
+    font-size: 13px;
+    margin: 0px 50px 0px 0px;
+    width: 30%;
+  }
+  .twitter3, .instagram3, .linkedin3{
+    width: 70px;
+  }
+  .social3{
+    width: 20%;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+  }
+  .name {
+    font-size: 24px;
+    width: 50%;
+  }
+ .twitter, .linkedin, .instagram {
+    width: 50px;
+  }
+  .social {
+    width: 50%;
+  }
+  .navbar {
+    display: none;  
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 20px 0px;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .intro_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hello{
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+  }
+  .name_{
+    padding: 0px 0px 10px 0px;
+    font-size: 24px;
+  }
+  .skill{
+    font-size: 16px;
+    width: 100%;
+    line-height: 24px;
+  }
+  .behance{
+    font-size: 14px;
+  }
+  .github{
+    font-size: 14px;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .profilepicture{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 70px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .frontend{
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .frontenddev{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    text-align: justify;
+    padding:60px 0px 0px 0px;
+  }
+  .tool{
+    font-size: 16px;
+  }
+  .ui_ux{
+    margin: 40px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .ui_ux_{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: justify;
+    padding:60px 0px 0px 0px;
+  }
+
+  #project{
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 15px;
+    text-align: justify;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .oaktree{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .saas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .tourguide{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .debenedict{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .foodlounge{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .link{
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 0px 0px 0px;
+  }
+  .link1 a{
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+  }
+  .subtext{
+    font-size: 15px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #979797;
+    padding-top: 30px;
+    margin-top: 10px;
+    background-position: center;
+  }
+  .contact_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 24px;
+  }
+  .connect {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .twitter2, .linkedin2, .instagram2 {
+    padding: 10px 30px 10px 0px;
+  }
+  .form{
+    width: 100%;
+  }
+  .maintext{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .textbox{
+    width: 80%;
+  }
+  .textarea{
+    width: 80%;
+  }
+  .submit{
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+    font-size: 15px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px 10px 0px;
+    padding: 30px 0px 10px 0px;
+    border-top: 1px solid #dfdddd;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+  }
+  .footer1{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .twitter3, .instagram3, .linkedin3{
+    display: flex;
+    width: 80px;
+    padding: 10px 30px 10px 25px;
+   
+  }
+  .social3{
+    justify-content: center;
+    width: 100%;
+  }
+  
+}
+
+
+@media only screen and (max-width: 430px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+  }
+  .name {
+    font-size: 24px;
+    width: 50%;
+  }
+ .twitter, .linkedin, .instagram {
+    width: 50px;
+  }
+  .social {
+    width: 50%;
+  }
+  .navbar {
+    display: none;  
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 20px 0px;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .intro_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hello{
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+  }
+  .name_{
+    padding: 0px 0px 10px 0px;
+    font-size: 24px;
+  }
+  .skill{
+    font-size: 16px;
+    width: 100%;
+    line-height: 24px;
+  }
+  .behance{
+    font-size: 14px;
+  }
+  .github{
+    font-size: 14px;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .profilepicture{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 70px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .frontend{
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .frontenddev{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    text-align: justify;
+    padding:50px 0px 0px 0px;
+  }
+  .tool{
+    font-size: 16px;
+  }
+  .ui_ux{
+    margin: 40px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .ui_ux_{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: justify;
+    padding:50px 0px 0px 0px;
+  }
+
+  #project{
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 15px;
+    text-align: justify;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .oaktree{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .saas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .tourguide{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .debenedict{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .foodlounge{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+  }
+  .link{
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    margin: 10px 0px 0px 0px;
+  }
+  .link1 a{
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+  }
+  .subtext{
+    font-size: 15px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #979797;
+    padding-top: 30px;
+    margin-top: 10px;
+    background-position: center;
+  }
+  .contact_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 24px;
+  }
+  .connect {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .twitter2, .linkedin2, .instagram2 {
+    padding: 10px 30px 10px 0px;
+  }
+  .form{
+    width: 100%;
+  }
+  .maintext{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .textbox{
+    width: 80%;
+  }
+  .textarea{
+    width: 80%;
+  }
+  .submit{
+    width: 50%;
+    justify-content: center;
+    align-self: start;
+    font-size: 15px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px 10px 0px;
+    padding: 30px 0px 10px 0px;
+    border-top: 1px solid #dfdddd;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+  }
+  .footer1{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .twitter3, .instagram3, .linkedin3{
+    display: flex;
+    width: 80px;
+    padding: 10px 30px 10px 25px;
+   
+  }
+  .social3{
+    justify-content: center;
+    width: 100%;
+  }
+  
 }
